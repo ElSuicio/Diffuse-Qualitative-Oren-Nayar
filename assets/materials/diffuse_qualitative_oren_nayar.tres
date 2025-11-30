@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dpavrftp0y2fh"]
+
+[ext_resource type="Shader" uid="uid://hi1d2cjulw4b" path="res://addons/diffuse_qualitative_oren_nayar/materials/shaders/DiffuseQualitativeOrenNayar.tres" id="1_kx41g"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_kx41g")
+shader_parameter/AlbedoColor = Color(1, 1, 1, 1)
+shader_parameter/rho = 0.9
+shader_parameter/sigma = 30.0
